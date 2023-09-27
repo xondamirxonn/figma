@@ -201,6 +201,7 @@ aside {
 
 .aside-flex {
   display: flex;
+  gap: 33px;
 }
 
 .aside-bgcolor {
@@ -239,6 +240,32 @@ aside {
   background: var(--primary, #4452FE);
   /* shadow */
   box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.aside-img {
+  margin-top: -2.8rem;
+}
+
+.button-aside-2 {
+  cursor: pointer;
+  all: unset;
+  display: flex;
+  height: 52px;
+  padding: 1px 56px;
+  align-items: center;
+  background: var(--primary, #4452FE);
+  margin-top: -2rem;
+}
+
+.article-gallery {
+  color: var(--light-text, #FFF);
+  /* Second Headline */
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: 0.2px;
 }
 
 .zohid {
