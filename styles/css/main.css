@@ -53,7 +53,107 @@ ul {
 }
 
 .nav-h1 p {
-  color: var(--light-text, #FFF);
+  color: var(--light-text, #fff);
+  text-align: center;
+  /* Sub Heading */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+
+.nav-button-flex {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
+.nav-button {
+  cursor: pointer;
+  all: unset;
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  background: var(--primary, #4452fe);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  color: var(--light-text, #fff);
+  /* Button */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+}
+
+.nav-btn-2 {
+  all: unset;
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  border: 1px solid var(--light-text, #fff);
+  /* shadow */
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  color: var(--light-background, #fff);
+  /* Button */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+}
+
+.nav-img {
+  width: 1003px;
+  margin-left: 6rem;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-flex {
+  display: flex;
+}
+
+.article-div {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  /* Second Headline */
+}
+.article-div .h2-div {
+  margin-left: 31rem;
+}
+
+.h2-div h2 {
+  color: var(--light-text, #fff);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: 0.2px;
+}
+
+.chat-img {
+  width: 856px;
+  height: 659px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.article-line {
+  position: relative;
+  top: 28rem;
+  left: 15rem;
+}
+
+.article-p {
+  color: var(--light-text, #fff);
   text-align: center;
   /* Sub Heading */
   font-size: 20px;
@@ -61,6 +161,18 @@ ul {
   font-weight: 400;
   line-height: 30px; /* 150% */
   letter-spacing: 0.2px;
+  margin-left: 31rem;
+}
+
+.icon-1 {
+  color: var(--light-text, #fff);
+  /* Title */
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
 }
 
 .zohid {
