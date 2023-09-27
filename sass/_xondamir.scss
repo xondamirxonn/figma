@@ -21,30 +21,6 @@ ul {
   justify-content: space-between;
 }
 
-.header-login {
-  all: unset;
-  margin-top: 0.8rem;
-  margin-right: 2rem;
-  display: flex;
-  // align-items: center;
-
-  padding: 0px 36px;
-
-  height: 60px;
-  border: 1px solid var(--light-text, #fff);
-  align-items: center;
-
-  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
-  flex-shrink: 0;
-  color: #fff;
-
-  font-family: Graphik;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 25px; /* 147.059% */
-  letter-spacing: 0.2px;
-}
 
 .nav-h1 h1 {
   color: var(--light-text, #fff);
@@ -249,4 +225,56 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 150% */
 letter-spacing: 0.2px;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-flex {
+  display: flex;
+}
+
+
+.aside-bgcolor{
+  display: flex;
+ 
+width: 476px;
+padding: 40px 0px;
+flex-direction: column;
+align-items: center;
+gap: 57px;
+border-radius: 10px;
+border: 1px solid #D3D3D3;
+background:  #FFF;
+
+/* shadow */
+box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.aside-p-2{
+  color: var(--second-text, #5C5C5C);
+text-align: center;
+
+/* Paragraphe */
+margin-top: -3rem;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+}
+
+.button-aside{
+  cursor: pointer;
+  all: unset;
+  display: flex;
+height: 52px;
+padding: 1px 56px;
+align-items: center;
+background: var(--primary, #4452FE);
+
+/* shadow */
+box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
