@@ -22,6 +22,26 @@ ul {
   justify-content: space-between;
 }
 
+.header-login {
+  all: unset;
+  margin-top: 0.8rem;
+  margin-right: 2rem;
+  display: flex;
+  padding: 0px 36px;
+  height: 60px;
+  border: 1px solid var(--light-text, #fff);
+  align-items: center;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Graphik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+}
+
 .nav-h1 h1 {
   color: var(--light-text, #fff);
   text-align: center;
@@ -97,7 +117,7 @@ ul {
   margin-bottom: 160px;
 }
 #main .main-line-img {
-  position: absolute;
+  position: relative;
   top: 48rem;
   right: 30rem;
 }
@@ -287,6 +307,20 @@ aside {
 
 .article-imgs-2 img {
   border-radius: 5px;
+}
+
+.article-button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  padding: 1px 50px;
+  align-items: center;
+  border: 1px solid var(--light-text, #FFF);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  color: white;
+  margin: auto;
+  margin-top: 44px;
 }
 
 .zohid {
@@ -484,6 +518,8 @@ aside {
 }
 
 .section-2 {
+  position: relative;
+  top: 230px;
   display: flex;
   width: 1200px;
   height: 370px;
@@ -512,6 +548,30 @@ aside {
   font-weight: 400;
   line-height: 62px;
   letter-spacing: 0.2px;
+}
+
+.left-1 button {
+  cursor: pointer;
+  all: unset;
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  background: var(--primary, #4452fe);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  color: var(--light-text, #fff);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: 0.2px;
+  margin-top: -50px;
+}
+
+footer {
+  width: 1579px;
+  height: 437px;
+  padding: 107px, 0px, 107px, 0px;
+  background: #181818;
 }
 
 .container {
