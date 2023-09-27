@@ -195,6 +195,8 @@ aside {
 
 .aside-contact {
   color: var(--light-text, #FFF);
+  display: flex;
+  justify-content: center;
   /* Second Headline */
   font-size: 52px;
   font-style: normal;
